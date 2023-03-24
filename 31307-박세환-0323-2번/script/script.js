@@ -1,9 +1,0 @@
-jQuery(document).ready(function(){
-    $(".main").mouseover(function(){
-        $(this).find(".sub").stop().slideDown()
-        $(".box").stop().slideDown()
-    }).mouseout(function(){
-        $(this).find(".sub").stop().slideUp()
-        $(".box").stop().slideUp()
-    })
-})
