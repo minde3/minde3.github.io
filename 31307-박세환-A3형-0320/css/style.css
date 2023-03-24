@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    color: #333;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+body{
+    width: 1200px;
+    height: 700px;
+    background-color: #fff;
+}
+
+.top{
+    width: 1200px;
+    height: 100px;
+    float: left;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.menu{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    position: relative;
+    background-color: #333;
+}
+
+.bgmenu{
+/* 크기설정, 색상 설정, 위치 설정 */
+    width: 1200px;
+    height: 150px;
+    background-color: rgb(255, 138, 224);
+    position: absolute;
+    left: -200px;
+    top: 100px;
+}
+
+.main{
+    width: 600px;
+    position: absolute;
+    left: 380px;
+    top: 50px;
+}
+
+.main>li>a:hover{
+    color: #ff0000;
+    background-color: rgb(247, 252, 0);
+}
+.main>li{
+    float: left;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgb(138, 138, 255);
+}
+
+.sub{
+    display: none;
+}
+.sub>li{
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgb(255, 138, 224);
+}
+
+.sub>li>a:hover{
+    color: aqua;
+    background-color: #ff0000;
+}
+.imgslide{
+    width: 1200px;
+    height: 300px;
+    float: left;
+}
+
+.content{
+    width: 1200px;
+    height: 200px;
+    float: left;
+}
+
+.nogla{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.banner{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.shortcut{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.bottom{
+    width: 1200px;
+    height: 100px;
+    float: left;
+}
+
+.logo2{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.bottom_right{
+    width: 1000px;
+    height: 100px;
+    float: left;
+}
+
+.hadan{
+    width: 1000px;
+    height: 50px;
+    float: left;
+}
+
+.copy{
+    width: 1000px;
+    height: 50px;
+}
